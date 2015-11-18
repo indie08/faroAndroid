@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id        = "com.farodeoriente.farodeoriente"
+		versionCode=""
+		version   = "1">
+		<name>Faro de oriente</name>
+		<description>
+version de prueba del faro de oriente		</description>
+		<author href="" email="mauricio.glez.v@gmail.com">
+Mauricio Alejandro González, Diana Ocampo Mendez
+		</author>
+		<preference name="phonegap-version" value="3.7.0" />
+		<preference name="orientation" value="portrait" />
+		<preference name="fullscreen" value="false" />
+		<preference name="target-device" value="universal" />
+		<preference name="webviewbounce" value="true" />
+		<preference name="prerendered-icon" value="true" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="default" />
+		<preference name="detect-data-types" value="true" />
+		<preference name="exit-on-suspend" value="false" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="EnableViewportScale" value="true" />
+		<preference name="MediaPlaybackRequiresUserAction" value="false" />
+		<preference name="AllowInlineMediaPlayback" value="false" />
+		<preference name="BackupWebStorage" value="cloud" />
+		<preference name="TopActivityIndicator" value="green" />
+		<preference name="KeyboardDisplayRequiresUserAction" value="false" />
+		<preference name="HideKeyboardFormAccessoryBar" value="false" />
+		<preference name="SuppressesIncrementalRendering" value="false" />
+		<preference name="android-minSdkVersion" value="7" />
+		<preference name="android-maxSdkVersion" value="19" />
+		<preference name="android-targetSdkVersion" value="19" />
+		<preference name="android-installLocation" value="internalOnly" />
+		<preference name="SplashScreenDelay" value="5000" />
+		<preference name="ErrorUrl" value=""/>
+		<preference name="BackgroundColor" value="0x000000"/>
+		<preference name="KeepRunning" value="true"/>
+		<preference name="DisallowOverscroll" value="false"/>
+		<preference name="LoadingDialog" value=","/> 
+		<preference name="LoadUrlTimeoutValue" value="20000" />
+		<preference name="disable-cursor" value="false" />
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		<gap:platform name="winphone" />
+		<gap:plugin name="org.apache.cordova.dialogs"  />
+		<gap:plugin name="org.apache.cordova.inappbrowser"  />
+		<gap:plugin name="org.apache.cordova.media"  />
+		<gap:plugin name="org.apache.cordova.splashscreen"  />
+		<gap:plugin name="org.apache.cordova.vibration"  />
+		
+		<platform name="android">
+		<icon src="36x36.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="48X48.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="72x72.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="96x96.png" gap:platform="android" gap:density="xhdpi" />
+		<icon src="144x144.png" gap:platform="android" gap:density="xxhdpi" />
+		<icon src="192x192.png" gap:platform="android" gap:density="xxxhdpi" />
+  		<splash src="Splash%20Screen-01.png" gap:platform="android" gap:qualifier="ldpi" />
+		<splash src="Splash%20Screen-02.png" gap:platform="android" gap:qualifier="mdpi" />
+		<splash src="Splash%20Screen-03.png" gap:platform="android" gap:qualifier="hdpi" />
+		<splash src="Splash%20Screen-04.png" gap:platform="android" gap:qualifier="xhdpi" />
+		<splash src="Splash%20Screen-05.png" gap:platform="android" gap:qualifier="xxhdpi" />
+		</platform>
+		<access origin="http://www.farodeoriente.org/prueba/musica.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/cineclub.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/especiales.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/infantil.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/literatura.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/galerias.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/artes-escenicas.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/clubhouse.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/contenido.html" subdomains="true"  />
+		<access origin="https://www.facebook.com/faro.deoriente" />
+		<access origin="https://instagram.com/farodeoriente" />
+		<access origin="https://www.youtube.com/user/Farodeorienteoficial"/>
+		<access origin="https://twitter.com/farodeoriente"/>
+		<access origin="https://www.flickr.com/photos/29978342@N03"/>
+		<access origin="http://www.farodeoriente.org/prueba/contenido.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/uno.jpg" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/dos.jpg" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/tres.jpg" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/cuatro.jpg" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/cinco.jpg" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/seis.jpg" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/uno.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/dos.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/tres.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/cuatro.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/cinco.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/seis.html" subdomains="true"  />
+	</widget>

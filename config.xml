@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.farodeoriente.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>farodeoriente</name>
+    <description>
+        version de prueba de la app del Faro de Oriente
+    </description>
+    <author email="mauricio.glez.v@gmail.com" href="">
+        Mauricio Alejandro Gonzalez Vargas, Diana Ocampo Méndez
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+	<preference name="Fullscreen" value="false" />
+	<preference name="DisallowOverscroll" value="true"/>
+	<preference name="Orientation" value="portrait" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+    <platform name="android">
+	<icon src="36x36_cuadro.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="48x48_cuadro.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="72x72_cuadro.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="96x96_cuadro.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="144x144_cuadro.png" gap:platform="android" gap:density="xxhdpi" />
+	<icon src="192x192_cuadro.png" gap:platform="android" gap:density="xxxhdpi" />
+  	<splash src="Splash%20Screen-01.png" gap:platform="android" gap:qualifier="ldpi" />
+	<splash src="Splash%20Screen-02.png" gap:platform="android" gap:qualifier="mdpi" />
+	<splash src="Splash%20Screen-03.png" gap:platform="android" gap:qualifier="hdpi" />
+	<splash src="Splash%20Screen-04.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<splash src="Splash%20Screen-05.png" gap:platform="android" gap:qualifier="xxhdpi" />
+
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+	<access origin="http://www.farodeoriente.org/prueba/musica.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/cineclub.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/especiales.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/infantil.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/literatura.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/galerias.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/artes-escenicas.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/clubhouse.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/contenido.html" subdomains="true"  />
+		<access origin="https://www.facebook.com/faro.deoriente" />
+		<access origin="https://instagram.com/farodeoriente" />
+		<access origin="https://www.youtube.com/user/Farodeorienteoficial"/>
+		<access origin="https://twitter.com/farodeoriente"/>
+		<access origin="https://www.flickr.com/photos/29978342@N03"/>
+		<access origin="http://www.farodeoriente.org/prueba/contenido.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/uno.jpg" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/dos.jpg" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/tres.jpg" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/cuatro.jpg" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/cinco.jpg" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/seis.jpg" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/uno.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/dos.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/tres.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/cuatro.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/cinco.html" subdomains="true"  />
+		<access origin="http://www.farodeoriente.org/prueba/seis.html" subdomains="true"  />
+</widget>
